@@ -16,12 +16,13 @@ form {
   height: 42px;
   padding-left: 10px;
   border: 2px solid #7BA7AB;
-  border-radius: 5px;
+  border-radius: 24px;
   outline: none;
   background: #d6d5d3;
   color: #9E9C9C;
 }
 .d1 button {
+  outline: none;
   position: absolute;
   top: 0;
   right: -13px;
@@ -29,7 +30,7 @@ form {
   height: 47px;
   border: none;
   background: #7BA7AB;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 24px 24px 0;
   cursor: pointer;
 }
 .d1 button:before {
@@ -73,8 +74,15 @@ form {
 }
 
 .logo {
+  margin-left: 1.3vw;
+  margin-top: -2vh;
   width: 50%;
   height: 50%;
+}
+.prof {
+  padding-top: 50%;
+  margin-left: -68%;
+  margin-bottom: -7%;
 }
 
 .menu {
@@ -97,7 +105,7 @@ form {
   display: flex;
   width: 84%;
   margin-bottom: -0.1%;
-  padding: 3.2vh 0.7vw;
+  padding: 3.5vh 0.7vw;
   color: #ced0cf;
   text-decoration: none;
   font-size: 3vh;
